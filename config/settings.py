@@ -94,4 +94,4 @@ class Settings:
 
 # Create logs directory if it doesn't exist
 os.makedirs(Settings.LOG_DIRECTORY, exist_ok=True)
-os.makedirs(TrainingConfig.CONTENT_DIRECTORY, exist_ok=True)
+os.makedirs(ContentConfig.CONTENT_DIRECTORY, exist_ok=True)

@@ -1,0 +1,85 @@
+2026-06-29 17:43:05,379 - __main__ - INFO - ================================================================================
+2026-06-29 17:43:05,379 - __main__ - INFO - Training Orchestration System - POC
+2026-06-29 17:43:05,379 - __main__ - INFO - ================================================================================
+2026-06-29 17:43:07,061 - database.db_manager - INFO - Database initialized: sqlite:///./training_system.db
+2026-06-29 17:43:07,061 - orchestrator - INFO - Training Orchestration System initialized
+2026-06-29 17:43:07,062 - __main__ - INFO - Starting interactive training orchestration...
+2026-06-29 17:43:43,219 - __main__ - INFO - Creating training batch: Test Batch 001
+2026-06-29 17:43:43,220 - orchestrator - INFO - Creating training batch: Test Batch 001
+2026-06-29 17:43:43,220 - engines.training_plan_engine - INFO - Creating training plan for 5 trainees, 11 business days, skill: python
+2026-06-29 17:43:43,220 - engines.training_plan_engine - INFO - Training plan created successfully with 11 days
+2026-06-29 17:43:43,221 - engines.content_scheduler - INFO - Scheduled 44 sessions
+2026-06-29 17:43:43,507 - orchestrator - INFO - Training batch created: Test Batch 001 (ID: 1)
+2026-06-29 17:43:43,526 - __main__ - INFO -   Batch ID: 1
+2026-06-29 17:43:43,526 - __main__ - INFO -   Total Days: 11
+2026-06-29 17:43:43,526 - __main__ - INFO -   Total Sessions: 44
+2026-06-29 17:43:43,526 - __main__ - INFO -   Total Training Hours: 29.33
+2026-06-29 17:43:43,529 - __main__ - INFO - 
+Batch Summary:
+2026-06-29 17:43:43,529 - __main__ - INFO -   Name: Test Batch 001
+2026-06-29 17:43:43,529 - __main__ - INFO -   Skill Area: python
+2026-06-29 17:43:43,530 - __main__ - INFO -   Status: planning
+2026-06-29 17:43:43,530 - __main__ - INFO -   Duration: 2026-07-13T00:00:00 to 2026-07-13T00:00:00
+2026-06-29 17:43:43,530 - __main__ - INFO - Next steps:
+2026-06-29 17:43:43,531 - __main__ - INFO - 1. Configure Teams integration in .env file
+2026-06-29 17:43:43,531 - __main__ - INFO - 2. Run example_usage.py for full workflow demo
+2026-06-29 17:43:43,531 - __main__ - INFO - 3. Check logs in 'logs' directory for detailed execution logs
+2026-06-29 17:43:43,531 - database.db_manager - INFO - Database connection closed
+2026-06-29 17:43:43,531 - __main__ - INFO - 
+Training Orchestration System shutdown complete
+2026-06-29 17:44:18,852 - __main__ - INFO - ================================================================================
+2026-06-29 17:44:18,852 - __main__ - INFO - Training Orchestration System - POC
+2026-06-29 17:44:18,852 - __main__ - INFO - ================================================================================
+2026-06-29 17:44:18,870 - database.db_manager - INFO - Database initialized: sqlite:///./training_system.db
+2026-06-29 17:44:18,870 - orchestrator - INFO - Training Orchestration System initialized
+2026-06-29 17:44:18,870 - __main__ - INFO - Starting interactive training orchestration...
+2026-06-29 17:49:58,128 - __main__ - INFO - ================================================================================
+2026-06-29 17:49:58,129 - __main__ - INFO - Training Orchestration System - GUI Version
+2026-06-29 17:49:58,129 - __main__ - INFO - ================================================================================
+2026-06-29 17:49:58,129 - __main__ - INFO - Started at: 2026-06-29 17:49:58
+2026-06-29 17:50:01,141 - __main__ - INFO - Loading main application window
+2026-06-29 17:50:01,164 - database.db_manager - INFO - Database initialized: sqlite:///./training_system.db
+2026-06-29 17:50:01,164 - orchestrator - INFO - Training Orchestration System initialized
+2026-06-29 17:50:01,172 - ui.dashboard - INFO - Refreshing dashboard
+2026-06-29 17:50:01,187 - ui.dashboard - INFO - Dashboard refreshed: 1 batches, 0 trainees
+2026-06-29 17:50:01,195 - ui.batch_management - INFO - Refreshing batches
+2026-06-29 17:50:01,199 - ui.batch_management - INFO - Loaded 1 batches
+2026-06-29 17:50:01,204 - ui.session_tracking - ERROR - Error loading sessions: 'TrainingSession' object has no attribute 'scheduled_date'
+2026-06-29 17:50:01,210 - ui.attendance_widget - INFO - Loaded attendance for 0 trainees
+2026-06-29 17:50:01,216 - ui.assessment_widget - INFO - Loaded 0 assessments
+2026-06-29 17:50:01,315 - ui.main_window - INFO - Main window initialized
+2026-06-29 17:50:01,315 - __main__ - INFO - Main window created successfully
+2026-06-29 17:50:01,320 - __main__ - ERROR - Error loading main window: 'AnimatedSplashScreen' object has no attribute 'finish'
+2026-06-29 17:51:58,033 - __main__ - INFO - ================================================================================
+2026-06-29 17:51:58,034 - __main__ - INFO - Training Orchestration System - GUI Version
+2026-06-29 17:51:58,034 - __main__ - INFO - ================================================================================
+2026-06-29 17:51:58,034 - __main__ - INFO - Started at: 2026-06-29 17:51:58
+2026-06-29 17:52:01,045 - __main__ - INFO - Loading main application window
+2026-06-29 17:52:01,063 - database.db_manager - INFO - Database initialized: sqlite:///./training_system.db
+2026-06-29 17:52:01,064 - orchestrator - INFO - Training Orchestration System initialized
+2026-06-29 17:52:01,069 - ui.dashboard - INFO - Refreshing dashboard
+2026-06-29 17:52:01,083 - ui.dashboard - INFO - Dashboard refreshed: 1 batches, 0 trainees
+2026-06-29 17:52:01,087 - ui.batch_management - INFO - Refreshing batches
+2026-06-29 17:52:01,090 - ui.batch_management - INFO - Loaded 1 batches
+2026-06-29 17:52:01,105 - ui.session_tracking - INFO - Loaded 44 sessions
+2026-06-29 17:52:01,110 - ui.attendance_widget - INFO - Loaded attendance for 0 trainees
+2026-06-29 17:52:01,115 - ui.assessment_widget - INFO - Loaded 0 assessments
+2026-06-29 17:52:01,197 - ui.main_window - INFO - Main window initialized
+2026-06-29 17:52:01,197 - __main__ - INFO - Main window created successfully
+2026-06-29 17:52:01,313 - __main__ - INFO - Application started successfully
+2026-06-29 17:52:29,366 - ui.dashboard - INFO - Refreshing dashboard
+2026-06-29 17:52:29,367 - ui.dashboard - INFO - Dashboard refreshed: 1 batches, 0 trainees
+2026-06-29 17:52:29,368 - ui.batch_management - INFO - Refreshing batches
+2026-06-29 17:52:29,369 - ui.batch_management - INFO - Loaded 1 batches
+2026-06-29 17:52:29,382 - ui.session_tracking - INFO - Loaded 44 sessions
+2026-06-29 17:52:29,383 - ui.attendance_widget - INFO - Loaded attendance for 0 trainees
+2026-06-29 17:52:29,384 - ui.assessment_widget - INFO - Loaded 0 assessments
+2026-06-29 17:52:29,392 - ui.main_window - INFO - All views refreshed
+2026-06-29 17:52:31,124 - ui.session_tracking - INFO - Loaded 44 sessions
+2026-06-29 17:52:40,238 - ui.batch_management - INFO - Refreshing batches
+2026-06-29 17:52:40,239 - ui.batch_management - INFO - Loaded 1 batches
+2026-06-29 17:52:47,108 - ui.session_tracking - INFO - Loaded 44 sessions
+2026-06-29 17:53:01,135 - ui.session_tracking - INFO - Loaded 44 sessions
+2026-06-29 17:53:05,196 - database.db_manager - INFO - Database connection closed
+2026-06-29 17:53:05,196 - ui.main_window - INFO - Application closed
+2026-06-29 17:53:05,201 - __main__ - INFO - Application closed with exit code: 0
